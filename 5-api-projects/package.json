@@ -4,7 +4,7 @@
 	"description": "5 api projects with JS",
 	"author": "Max Zolotkov",
 	"private": true,
-  "type": "module",
+	"type": "module",
 	"license": "",
 	"scripts": {
 		"dev": "gulp && webpack serve --progress -c config/webpack.dev.js",
@@ -62,6 +62,7 @@
 		"terser-webpack-plugin": "latest",
 		"tippy.js": "latest",
 		"transform-runtime": "0.0.0",
+		"vinyl-ftp": "^0.6.1",
 		"webp-converter": "2.2.3",
 		"webpack": "latest",
 		"webpack-cli": "latest",
