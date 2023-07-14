@@ -41,7 +41,7 @@ const config = {
     minimize: false,
   },
   entry: {
-    app: `${paths.src}/js/app.js`,
+    pokemon: `${paths.src}/js/pokemon.js`,
   },
   output: {
     path: `${paths.build}`,
