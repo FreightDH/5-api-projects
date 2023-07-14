@@ -42,6 +42,7 @@ const config = {
   },
   entry: {
     pokemon: `${paths.src}/js/pokemon.js`,
+    dictionary: `${paths.src}/js/dictionary.js`,
   },
   output: {
     path: `${paths.build}`,
