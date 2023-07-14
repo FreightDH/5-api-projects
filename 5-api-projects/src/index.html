@@ -1,14 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-@@include('html/head.html', { "title":"Главная" })
+  @@include('html/head.html', { "title":"Pokemon Card Generator" })
 
-<body>
-  <div class="wrapper">
-    @@include('html/header.html',{})
-    <main class="page"></main>
-    @@include('html/footer.html',{})
-  </div>
-  @@include('html/js.html',{})
-</body>
-
+  <body>
+    <div class="wrapper">
+      @@include('html/header.html',{})
+      <main class="content">
+        <div class="content__container">
+          <div class="content__body">
+            <div class="content__card card" id="card"></div>
+            <button class="content__btn btn" id="btn">Generate</button>
+          </div>
+        </div>
+      </main>
+      @@include('html/footer.html',{})
+    </div>
+    <script src="js/pokemon.min.js"></script>
+  </body>
 </html>
