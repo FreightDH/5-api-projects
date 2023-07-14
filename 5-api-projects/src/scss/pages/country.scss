@@ -11,6 +11,7 @@
 
   @media (max-width: $mobileSmall) {
     width: 90vmin;
+    padding: 25px 15px;
   }
 
   background-color: #fff;
@@ -18,13 +19,6 @@
   box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
 }
 .content {
-  &__title {
-    @media (max-width: $mobileSmall) {
-      max-width: 200px;
-      margin: 0 auto;
-    }
-  }
-
   &__result {
     width: 100%;
   }
