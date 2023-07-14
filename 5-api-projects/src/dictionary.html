@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  @@include('html/head.html', { "title":"Dictionary" })
+
+  <body>
+    <div class="wrapper">
+      @@include('html/header.html',{})
+      <main class="content dict--content">
+        <div class="content__container">
+          <h1 class="content__title">Английский словарь (Dictionary API)</h1>
+          <div class="content__body dict--body">
+            <div class="content__search">
+              <input type="text" placeholder="Введите слово (англ.) здесь.." class="search__input" id="input" />
+              <button class="search__btn" id="btn">Найти</button>
+            </div>
+            <div class="content__result"></div>
+          </div>
+        </div>
+      </main>
+      @@include('html/footer.html',{})
+    </div>
+    <script src="js/dictionary.min.js"></script>
+  </body>
+</html>
