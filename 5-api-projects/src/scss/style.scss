@@ -114,7 +114,7 @@ body {
 //</ОБОЛОЧКА>
 
 //<ПОДЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>
-// @import "header";
+@import 'header';
 @import 'pages/pokemon';
 @import 'pages/dictionary';
 @import 'pages/country';
