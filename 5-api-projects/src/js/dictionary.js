@@ -9,6 +9,8 @@ function start() {
 
   searchButton.addEventListener('click', () => getDefinition(input.value));
   input.addEventListener('change', () => getDefinition(input.value));
+  menuFunctions.menuInit();
+  menuFunctions.findActiveLink();
 }
 
 window.addEventListener('load', start);

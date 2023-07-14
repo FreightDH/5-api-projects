@@ -25,3 +25,5 @@ function start() {
 const button = document.getElementById('btn');
 button.addEventListener('click', start);
 window.addEventListener('load', start);
+menuFunctions.menuInit();
+menuFunctions.findActiveLink();

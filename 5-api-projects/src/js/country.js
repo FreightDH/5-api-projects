@@ -9,6 +9,8 @@ function start() {
 
   searchButton.addEventListener('click', () => getCountryInfo(input.value));
   input.addEventListener('change', () => getCountryInfo(input.value));
+  menuFunctions.menuInit();
+  menuFunctions.findActiveLink();
 }
 
 window.addEventListener('load', start);
