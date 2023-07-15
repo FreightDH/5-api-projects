@@ -41,9 +41,9 @@ const config = {
     minimize: false,
   },
   entry: {
-    pokemon: `${paths.src}/js/pokemon.js`,
-    dictionary: `${paths.src}/js/dictionary.js`,
     country: `${paths.src}/js/country.js`,
+    weather: `${paths.src}/js/weather.js`,
+    dictionary: `${paths.src}/js/dictionary.js`,
   },
   output: {
     path: `${paths.build}`,
