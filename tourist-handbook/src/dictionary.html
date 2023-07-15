@@ -7,11 +7,16 @@
       @@include('html/header.html',{})
       <main class="content dict--content">
         <div class="content__container">
-          <h1 class="content__title">Английский словарь (Dictionary API)</h1>
+          <h1 class="content__title">Английский словарь</h1>
           <div class="content__body dict--body">
             <div class="content__search">
-              <input type="text" placeholder="Введите слово (англ.) здесь.." class="search__input" id="input" />
-              <button class="search__btn" id="btn">Найти</button>
+              <input
+                type="text"
+                placeholder="Введите слово (англ.) здесь.."
+                class="search__input dict--input"
+                id="input"
+              />
+              <button class="search__btn dict--btn" id="btn">Найти</button>
             </div>
             <div class="content__result"></div>
           </div>
