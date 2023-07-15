@@ -5,7 +5,6 @@ export async function getCountryInfo(country) {
   try {
     const res = await fetch(url);
     const data = await res.json();
-    console.log(data);
 
     result.innerHTML = `
     <div class="result__image"><img src="${data[0].flags.svg}" alt="flag" /></div>
