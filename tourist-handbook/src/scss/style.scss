@@ -6,7 +6,7 @@
 
 //<ШРИФТЫ>
 //<Подключаем шрифты>
-// @import "fonts/fonts";
+@import 'fonts/fonts';
 //</Подключаем шрифты>
 
 //<Шрифт по умолчанию>
@@ -115,9 +115,9 @@ body {
 
 //<ПОДЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>
 @import 'header';
-@import 'pages/pokemon';
-@import 'pages/dictionary';
 @import 'pages/country';
+@import 'pages/weather';
+@import 'pages/dictionary';
 // @import "footer";
 //</ПОДЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>
 
