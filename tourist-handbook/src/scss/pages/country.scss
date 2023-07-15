@@ -57,27 +57,3 @@
     }
   }
 }
-.info {
-  &__item {
-    color: #5d6274;
-    font-size: 17px;
-    letter-spacing: 0.3px;
-
-    span {
-      color: #222a43;
-      font-weight: 500;
-    }
-
-    &:not(:last-child) {
-      margin: 0px 0px 10px 0px;
-
-      @media (max-width: $mobile) {
-        margin: 0px 0px 10px 0px;
-      }
-    }
-
-    @media (max-width: $mobile) {
-      font-size: 15px;
-    }
-  }
-}
