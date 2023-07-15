@@ -1,7 +1,7 @@
 {
-	"name": "5-api-projects",
+	"name": "tourist-handbook",
 	"version": "1.0.0",
-	"description": "5 api projects with JS",
+	"description": "Tourist handbook which includes country guide, weather and dictionary",
 	"author": "Max Zolotkov",
 	"private": true,
 	"type": "module",
