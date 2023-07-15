@@ -1,8 +1,8 @@
 .country--content {
-  background-color: #3d64e6;
+  background-color: #48cae4;
 }
 .country--body {
-  width: 70vmin;
+  width: 80vmin;
   padding: 50px;
 
   @media (max-width: $mobile) {
@@ -18,17 +18,13 @@
   border-radius: 10px;
   box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
 }
-.content {
-  &__result {
-    width: 100%;
-  }
-}
 .country--input {
-  border-bottom: 2px solid #3d64e6;
+  border-bottom: 2px solid #48cae4;
 }
 .country--btn {
-  background-color: #3d64e6;
+  background-color: #48cae4;
 }
+
 .result {
   &__image {
     max-width: 225px;
