@@ -1,21 +1,3 @@
-// ПРОВЕРКА ПОДДЕРЖКИ WEBP
-export function isWebp() {
-  // Проверка поддержки webp
-  function testWebP(callback) {
-    const webP = new Image();
-    webP.onload = webP.onerror = () => {
-      callback(webP.height === 2);
-    };
-    webP.src =
-      'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
-  }
-  // Добавление класса _webp или _no-webp для HTML
-  testWebP((support) => {
-    const className = support === true ? 'webp' : 'no-webp';
-    document.documentElement.classList.add(className);
-  });
-}
-//----------------------------------------------------------------------
 // МОДУЛИ БЛОКИРОВКИ ПРОКРУТКИ
 export let bodyLockStatus = true;
 
@@ -68,17 +50,4 @@ export const bodyLockToggle = (delay = 300) => {
 
 // ГЕНЕРАЦИЯ СЛУЧАЙНОГО ЧИСЛА, ВКЛЮЧАЯ MIN и MAX
 export const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-//----------------------------------------------------------------------
-
-// ПЕРЕМЕШИВАНИЕ МАССИВА
-export const shuffleArray = (array) => {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-
-  return array;
-};
-//----------------------------------------------------------------------
-
 //----------------------------------------------------------------------
