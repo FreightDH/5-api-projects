@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Гид по стране</title>
+	<title>Английский словарь</title>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -25,14 +25,14 @@
 						</button>
 						<nav class="menu__body">
 							<ul class="menu__list">
-								<li class="menu__item active">
+								<li class="menu__item">
+									<a href="dictionary.html" class="menu__link"><span>Английский словарь</span></a>
+								</li>
+								<li class="menu__item">
 									<a href="country.html" class="menu__link"><span>Гид по стране</span></a>
 								</li>
 								<li class="menu__item">
 									<a href="weather.html" class="menu__link"><span>Погода</span></a>
-								</li>
-								<li class="menu__item">
-									<a href="dictionary.html" class="menu__link"><span>Английский словарь</span></a>
 								</li>
 							</ul>
 						</nav>
@@ -41,13 +41,13 @@
 			</div>
 		</header>
 
-		<main class="content country--content">
+		<main class="content dict--content">
 			<div class="content__container">
-				<h1 class="content__title">Гид по стране</h1>
-				<div class="content__body country--body">
+				<h1 class="content__title">Английский словарь</h1>
+				<div class="content__body dict--body">
 					<div class="content__search">
-						<input type="text" placeholder="Введите страну (англ.) здесь.." class="search__input country--input" id="input" />
-						<button class="search__btn country--btn" id="btn">Найти</button>
+						<input type="text" placeholder="Введите слово (англ.) здесь.." class="search__input dict--input" id="input" />
+						<button class="search__btn dict--btn" id="btn">Найти</button>
 					</div>
 					<div class="content__result"></div>
 				</div>
@@ -59,7 +59,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/country.min.js"></script>
+	<script src="js/dictionary.min.js"></script>
 </body>
 
 </html>
