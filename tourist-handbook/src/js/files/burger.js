@@ -38,7 +38,7 @@ export function menuClose() {
 export function findActiveLink() {
   const menuLinks = Array.from(document.querySelectorAll('.menu__link'));
   const pageTitle = document.querySelector('h1').textContent;
-  const activeLink = menuLinks.find((link) => link.textContent === pageTitle.slice(0, pageTitle.indexOf('(') - 1));
+  const activeLink = menuLinks.find((link) => link.textContent === pageTitle);
 
   menuLinks.forEach((link) => link.parentElement.classList.remove('active'));
   if (activeLink) activeLink.parentElement.classList.add('active');
