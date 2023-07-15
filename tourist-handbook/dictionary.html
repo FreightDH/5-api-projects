@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Карточка Покемона</title>
+	<title>Английский словарь</title>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -26,13 +26,13 @@
 						<nav class="menu__body">
 							<ul class="menu__list">
 								<li class="menu__item active">
-									<a href="pokemon.html" class="menu__link"><span>Карточка Покемона</span></a>
+									<a href="country.html" class="menu__link"><span>Гид по стране</span></a>
+								</li>
+								<li class="menu__item">
+									<a href="weather.html" class="menu__link"><span>Погода</span></a>
 								</li>
 								<li class="menu__item">
 									<a href="dictionary.html" class="menu__link"><span>Английский словарь</span></a>
-								</li>
-								<li class="menu__item">
-									<a href="country.html" class="menu__link"><span>Гид по стране</span></a>
 								</li>
 							</ul>
 						</nav>
@@ -41,12 +41,15 @@
 			</div>
 		</header>
 
-		<main class="content">
+		<main class="content dict--content">
 			<div class="content__container">
-				<div class="content__body">
-					<h1 class="content__title">Карточка Покемона (Pokemon API)</h1>
-					<div class="content__card card" id="card"></div>
-					<button class="content__btn btn" id="btn">Сгенерировать</button>
+				<h1 class="content__title">Английский словарь</h1>
+				<div class="content__body dict--body">
+					<div class="content__search">
+						<input type="text" placeholder="Введите слово (англ.) здесь.." class="search__input dict--input" id="input" />
+						<button class="search__btn dict--btn" id="btn">Найти</button>
+					</div>
+					<div class="content__result"></div>
 				</div>
 			</div>
 		</main>
@@ -56,7 +59,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/pokemon.min.js"></script>
+	<script src="js/dictionary.min.js"></script>
 </body>
 
 </html>

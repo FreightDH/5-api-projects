@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Английский словарь</title>
+	<title>Погода</title>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -26,13 +26,13 @@
 						<nav class="menu__body">
 							<ul class="menu__list">
 								<li class="menu__item active">
-									<a href="pokemon.html" class="menu__link"><span>Карточка Покемона</span></a>
+									<a href="country.html" class="menu__link"><span>Гид по стране</span></a>
+								</li>
+								<li class="menu__item">
+									<a href="weather.html" class="menu__link"><span>Погода</span></a>
 								</li>
 								<li class="menu__item">
 									<a href="dictionary.html" class="menu__link"><span>Английский словарь</span></a>
-								</li>
-								<li class="menu__item">
-									<a href="country.html" class="menu__link"><span>Гид по стране</span></a>
 								</li>
 							</ul>
 						</nav>
@@ -41,13 +41,13 @@
 			</div>
 		</header>
 
-		<main class="content dict--content">
+		<main class="content weather--content">
 			<div class="content__container">
-				<h1 class="content__title">Английский словарь (Dictionary API)</h1>
-				<div class="content__body dict--body">
+				<h1 class="content__title">Погода</h1>
+				<div class="content__body weather--body">
 					<div class="content__search">
-						<input type="text" placeholder="Введите слово (англ.) здесь.." class="search__input" id="input" />
-						<button class="search__btn" id="btn">Найти</button>
+						<input type="text" placeholder="Введите город здесь.." class="search__input weather--input" id="input" />
+						<button class="search__btn weather--btn" id="btn">Найти</button>
 					</div>
 					<div class="content__result"></div>
 				</div>
@@ -59,7 +59,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/dictionary.min.js"></script>
+	<script src="js/weather.min.js"></script>
 </body>
 
 </html>

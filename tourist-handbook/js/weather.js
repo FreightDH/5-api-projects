@@ -60,27 +60,26 @@
     function findActiveLink() {
         const menuLinks = Array.from(document.querySelectorAll(".menu__link"));
         const pageTitle = document.querySelector("h1").textContent;
-        const activeLink = menuLinks.find((link => link.textContent === pageTitle.slice(0, pageTitle.indexOf("(") - 1)));
+        const activeLink = menuLinks.find((link => link.textContent === pageTitle));
         menuLinks.forEach((link => link.parentElement.classList.remove("active")));
         if (activeLink) activeLink.parentElement.classList.add("active");
     }
-    async function getCountryInfo(country) {
-        const url = `https://restcountries.com/v3.1/name/${country}?fullText=true`;
+    async function getWeather(city) {
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=ru&appid=241a6c975817c3a04916e8babb8a5626&units=metric`;
         const result = document.querySelector(".content__result");
         try {
             const res = await fetch(url);
             const data = await res.json();
-            console.log(data);
-            result.innerHTML = `\n    <div class="result__image"><img src="${data[0].flags.svg}" alt="flag" /></div>\n    <h2 class="result__country">${data[0].name.common}</h2>\n    <ul class="result__info">\n      <li class="info__item"><span>Столица:</span> ${data[0].capital[0]}</li>\n      <li class="info__item"><span>Континент:</span> ${data[0].continents[0]}</li>\n      <li class="info__item"><span>Население:</span> ${data[0].population}</li>\n      <li class="info__item"><span>Валюта:</span> ${data[0].currencies[Object.keys(data[0].currencies)].name} - ${Object.keys(data[0].currencies)[0]}</li>\n      <li class="info__item"><span>Основной язык:</span> ${Object.values(data[0].languages).toString().split(",").join(", ")}</li>\n    </ul>\n    `;
+            result.innerHTML = `\n    <i class="result__icon owf owf-${data.weather[0].id}"></i>\n    <ul class="result__info">\n      <li class="info__item"><span>Температура:</span> ${data.main.temp.toFixed(0)}°C</li>\n      <li class="info__item"><span>Описание:</span> ${data.weather[0].description}</li>\n      <li class="info__item"><span>Скорость ветра:</span>  ${data.wind.speed.toFixed(0)} м/с</li>\n      <li class="info__item"><span>Влажность:</span>  ${data.main.humidity}%</li>\n    </ul>\n    `;
         } catch (error) {
-            if (country.length == 0) result.innerHTML = `<h3>The input field cannot be empty</h3>`; else result.innerHTML = `<h3>Please enter a valid country name.</h3>`;
+            result.innerHTML = `\n    <div class="result__error"> Ошибка! '${city}'  не найден!</div>\n    `;
         }
     }
     function start() {
         const input = document.getElementById("input");
         const searchButton = document.getElementById("btn");
-        searchButton.addEventListener("click", (() => getCountryInfo(input.value)));
-        input.addEventListener("change", (() => getCountryInfo(input.value)));
+        searchButton.addEventListener("click", (() => getWeather(input.value)));
+        input.addEventListener("change", (() => getWeather(input.value)));
         menuInit();
         findActiveLink();
     }

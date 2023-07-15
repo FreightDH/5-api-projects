@@ -60,27 +60,26 @@
     function findActiveLink() {
         const menuLinks = Array.from(document.querySelectorAll(".menu__link"));
         const pageTitle = document.querySelector("h1").textContent;
-        const activeLink = menuLinks.find((link => link.textContent === pageTitle.slice(0, pageTitle.indexOf("(") - 1)));
+        const activeLink = menuLinks.find((link => link.textContent === pageTitle));
         menuLinks.forEach((link => link.parentElement.classList.remove("active")));
         if (activeLink) activeLink.parentElement.classList.add("active");
     }
-    async function getDefinition(word) {
-        const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
+    async function getCountryInfo(country) {
+        const url = `https://restcountries.com/v3.1/name/${country}?fullText=true`;
         const result = document.querySelector(".content__result");
         try {
             const res = await fetch(url);
             const data = await res.json();
-            result.innerHTML = `\n      <h2 class="result__word">${word}</h2>\n      <div class="result__details">\n        <p class="details__text">${data[0].meanings[0].partOfSpeech}</p>\n        <p class="details__text">${data[0].phonetic || ""}</p>\n      </div>\n      <p class="result__definition">${data[0].meanings[0].definitions[0].definition}</p>\n      <p class="result__example">${data[0].meanings[0].definitions[0].example || ""}</p>\n    `;
+            result.innerHTML = `\n    <div class="result__image"><img src="${data[0].flags.svg}" alt="flag" /></div>\n    <h2 class="result__country">${data[0].name.common}</h2>\n    <ul class="result__info">\n      <li class="info__item"><span>Столица:</span> ${data[0].capital[0]}</li>\n      <li class="info__item"><span>Континент:</span> ${data[0].continents[0]}</li>\n      <li class="info__item"><span>Население:</span> ${data[0].population}</li>\n      <li class="info__item"><span>Валюта:</span> ${data[0].currencies[Object.keys(data[0].currencies)].name} - ${Object.keys(data[0].currencies)[0]}</li>\n      <li class="info__item"><span>Основной язык:</span> ${Object.values(data[0].languages).toString().split(",").join(", ")}</li>\n    </ul>\n    `;
         } catch (error) {
-            result.innerHTML = `<h2 class="error">Couldn't Find The Word</h2>`;
-            console.error(error.message);
+            if (country.length == 0) result.innerHTML = `<h3>The input field cannot be empty</h3>`; else result.innerHTML = `<h3>Please enter a valid country name.</h3>`;
         }
     }
     function start() {
         const input = document.getElementById("input");
         const searchButton = document.getElementById("btn");
-        searchButton.addEventListener("click", (() => getDefinition(input.value)));
-        input.addEventListener("change", (() => getDefinition(input.value)));
+        searchButton.addEventListener("click", (() => getCountryInfo(input.value)));
+        input.addEventListener("change", (() => getCountryInfo(input.value)));
         menuInit();
         findActiveLink();
     }
