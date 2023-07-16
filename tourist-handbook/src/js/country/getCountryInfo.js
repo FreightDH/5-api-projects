@@ -24,9 +24,9 @@ export async function getCountryInfo(country) {
     `;
   } catch (error) {
     if (country.length == 0) {
-      result.innerHTML = `<h3>The input field cannot be empty</h3>`;
+      result.innerHTML = `<h3>Поле ввода не может быть пустым!</h3>`;
     } else {
-      result.innerHTML = `<h3>Please enter a valid country name.</h3>`;
+      result.innerHTML = `<h3>Ошибка! Страна не найдена!.</h3>`;
     }
   }
 }

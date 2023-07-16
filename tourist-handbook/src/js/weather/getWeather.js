@@ -16,8 +16,10 @@ export async function getWeather(city) {
     </ul>
     `;
   } catch (error) {
-    result.innerHTML = `
-    <div class="result__error"> Ошибка! '${city}'  не найден!</div>
-    `;
+    if (city.length == 0) {
+      result.innerHTML = `<h3>Поле ввода не может быть пустым!</h3>`;
+    } else {
+      result.innerHTML = `<h2 class="error">Ошибка! Город не найден!</h2>`;
+    }
   }
 }

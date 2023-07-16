@@ -16,7 +16,10 @@ export async function getDefinition(word) {
       <p class="result__example">${data[0].meanings[0].definitions[0].example || ''}</p>
     `;
   } catch (error) {
-    result.innerHTML = `<h2 class="error">Couldn't Find The Word</h2>`;
-    console.error(error.message);
+    if (word.length == 0) {
+      result.innerHTML = `<h3>Поле ввода не может быть пустым!</h3>`;
+    } else {
+      result.innerHTML = `<h2 class="error">Ошибка! Слово не найдено!</h2>`;
+    }
   }
 }
