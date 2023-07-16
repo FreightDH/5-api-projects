@@ -1,7 +1,7 @@
 @font-face {
   font-family: owfont;
   font-display: swap;
-  src: url("../fonts/owfont-regular.woff2") format("woff2"), url("../fonts/owfont-regular.woff") format("woff");
+  src: url('../fonts/owfont-regular.woff2') format('woff2'), url('../fonts/owfont-regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -14,8 +14,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
 }
 
 /* makes the font 33% larger relative to the icon container */
@@ -103,7 +103,7 @@
 .owf-200:before,
 .owf-200-d:before,
 .owf-200-n:before {
-  content: "\eb28";
+  content: '\eb28';
 }
 
 /* thunderstorm with rain */
@@ -111,7 +111,7 @@
 .owf-201:before,
 .owf-201-d:before,
 .owf-201-n:before {
-  content: "\eb29";
+  content: '\eb29';
 }
 
 /* thunderstorm with heavy rain */
@@ -119,7 +119,7 @@
 .owf-202:before,
 .owf-202-d:before,
 .owf-202-n:before {
-  content: "\eb2a";
+  content: '\eb2a';
 }
 
 /*  light thunderstorm  */
@@ -127,7 +127,7 @@
 .owf-210:before,
 .owf-210-d:before,
 .owf-210-n:before {
-  content: "\eb32";
+  content: '\eb32';
 }
 
 /*  thunderstorm  */
@@ -135,7 +135,7 @@
 .owf-211:before,
 .owf-211-d:before,
 .owf-211-n:before {
-  content: "\eb33";
+  content: '\eb33';
 }
 
 /*   heavy thunderstorm   */
@@ -143,7 +143,7 @@
 .owf-212:before,
 .owf-212-d:before,
 .owf-212-n:before {
-  content: "\eb34";
+  content: '\eb34';
 }
 
 /*   ragged thunderstorm   */
@@ -151,7 +151,7 @@
 .owf-221:before,
 .owf-221-d:before,
 .owf-221-n:before {
-  content: "\eb3d";
+  content: '\eb3d';
 }
 
 /*  thunderstorm with light drizzle    */
@@ -159,7 +159,7 @@
 .owf-230:before,
 .owf-230-d:before,
 .owf-230-n:before {
-  content: "\eb46";
+  content: '\eb46';
 }
 
 /*  thunderstorm with drizzle     */
@@ -167,7 +167,7 @@
 .owf-231:before,
 .owf-231-d:before,
 .owf-231-n:before {
-  content: "\eb47";
+  content: '\eb47';
 }
 
 /* thunderstorm with heavy drizzle     */
@@ -175,7 +175,7 @@
 .owf-232:before,
 .owf-232-d:before,
 .owf-232-n:before {
-  content: "\eb48";
+  content: '\eb48';
 }
 
 /*   Drizzle - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
@@ -185,7 +185,7 @@
 .owf-300:before,
 .owf-300-d:before,
 .owf-300-n:before {
-  content: "\eb8c";
+  content: '\eb8c';
 }
 
 /*  drizzle */
@@ -193,7 +193,7 @@
 .owf-301:before,
 .owf-301-d:before,
 .owf-301-n:before {
-  content: "\eb8d";
+  content: '\eb8d';
 }
 
 /*  heavy intensity drizzle  */
@@ -201,7 +201,7 @@
 .owf-302:before,
 .owf-302-d:before,
 .owf-302-n:before {
-  content: "\eb8e";
+  content: '\eb8e';
 }
 
 /*   light intensity drizzle rain  */
@@ -209,7 +209,7 @@
 .owf-310:before,
 .owf-310-d:before,
 .owf-310-n:before {
-  content: "\eb96";
+  content: '\eb96';
 }
 
 /*  drizzle rain  */
@@ -217,7 +217,7 @@
 .owf-311:before,
 .owf-311-d:before,
 .owf-311-n:before {
-  content: "\eb97";
+  content: '\eb97';
 }
 
 /* heavy intensity drizzle rain */
@@ -225,7 +225,7 @@
 .owf-312:before,
 .owf-312-d:before,
 .owf-312-n:before {
-  content: "\eb98";
+  content: '\eb98';
 }
 
 /* shower rain and drizzle  */
@@ -233,7 +233,7 @@
 .owf-313:before,
 .owf-313-d:before,
 .owf-313-n:before {
-  content: "\eb99";
+  content: '\eb99';
 }
 
 /* heavy shower rain and drizzle*/
@@ -241,7 +241,7 @@
 .owf-314:before,
 .owf-314-d:before,
 .owf-314-n:before {
-  content: "\eb9a";
+  content: '\eb9a';
 }
 
 /* shower drizzle */
@@ -249,7 +249,7 @@
 .owf-321:before,
 .owf-321-d:before,
 .owf-321-n:before {
-  content: "\eba1";
+  content: '\eba1';
 }
 
 /*   Rain - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
@@ -259,7 +259,7 @@
 .owf-500:before,
 .owf-500-d:before,
 .owf-500-n:before {
-  content: "\ec54";
+  content: '\ec54';
 }
 
 /* moderate rain  */
@@ -267,7 +267,7 @@
 .owf-501:before,
 .owf-501-d:before,
 .owf-501-n:before {
-  content: "\ec55";
+  content: '\ec55';
 }
 
 /* heavy intensity rain  */
@@ -275,7 +275,7 @@
 .owf-502:before,
 .owf-502-d:before,
 .owf-502-n:before {
-  content: "\ec56";
+  content: '\ec56';
 }
 
 /* very heavy rain   */
@@ -283,7 +283,7 @@
 .owf-503:before,
 .owf-503-d:before,
 .owf-503-n:before {
-  content: "\ec57";
+  content: '\ec57';
 }
 
 /* extreme rain    */
@@ -291,7 +291,7 @@
 .owf-504:before,
 .owf-504-d:before,
 .owf-504-n:before {
-  content: "\ec58";
+  content: '\ec58';
 }
 
 /* freezing rain    */
@@ -299,7 +299,7 @@
 .owf-511:before,
 .owf-511-d:before,
 .owf-511-n:before {
-  content: "\ec5f";
+  content: '\ec5f';
 }
 
 /*  light intensity shower rain    */
@@ -307,7 +307,7 @@
 .owf-520:before,
 .owf-520-d:before,
 .owf-520-n:before {
-  content: "\ec68";
+  content: '\ec68';
 }
 
 /* shower rain  */
@@ -315,7 +315,7 @@
 .owf-521:before,
 .owf-521-d:before,
 .owf-521-n:before {
-  content: "\ec69";
+  content: '\ec69';
 }
 
 /*  heavy intensity shower rain  */
@@ -323,7 +323,7 @@
 .owf-522:before,
 .owf-522-d:before,
 .owf-522-n:before {
-  content: "\ec6a";
+  content: '\ec6a';
 }
 
 /* ragged shower rain  */
@@ -331,7 +331,7 @@
 .owf-531:before,
 .owf-531-d:before,
 .owf-531-n:before {
-  content: "\ec73";
+  content: '\ec73';
 }
 
 /*   Snow - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
@@ -341,7 +341,7 @@
 .owf-600:before,
 .owf-600-d:before,
 .owf-600-n:before {
-  content: "\ecb8";
+  content: '\ecb8';
 }
 
 /*  snow  */
@@ -349,7 +349,7 @@
 .owf-601:before,
 .owf-601-d:before,
 .owf-601-n:before {
-  content: "\ecb9";
+  content: '\ecb9';
 }
 
 /*   heavy snow   */
@@ -357,7 +357,7 @@
 .owf-602:before,
 .owf-602-d:before,
 .owf-602-n:before {
-  content: "\ecba";
+  content: '\ecba';
 }
 
 /*  sleet  */
@@ -365,7 +365,7 @@
 .owf-611:before,
 .owf-611-d:before,
 .owf-611-n:before {
-  content: "\ecc3";
+  content: '\ecc3';
 }
 
 /*   shower sleet */
@@ -373,7 +373,7 @@
 .owf-612:before,
 .owf-612-d:before,
 .owf-612-n:before {
-  content: "\ecc4";
+  content: '\ecc4';
 }
 
 /* light rain and snow */
@@ -381,7 +381,7 @@
 .owf-615:before,
 .owf-615-d:before,
 .owf-615-n:before {
-  content: "\ecc7";
+  content: '\ecc7';
 }
 
 /* rain and snow  */
@@ -389,7 +389,7 @@
 .owf-616:before,
 .owf-616-d:before,
 .owf-616-n:before {
-  content: "\ecc8";
+  content: '\ecc8';
 }
 
 /* light shower snow  */
@@ -397,7 +397,7 @@
 .owf-620:before,
 .owf-620-d:before,
 .owf-620-n:before {
-  content: "\eccc";
+  content: '\eccc';
 }
 
 /* shower snow  */
@@ -405,7 +405,7 @@
 .owf-621:before,
 .owf-621-d:before,
 .owf-621-n:before {
-  content: "\eccd";
+  content: '\eccd';
 }
 
 /* heavy shower snow  */
@@ -413,7 +413,7 @@
 .owf-622:before,
 .owf-622-d:before,
 .owf-622-n:before {
-  content: "\ecce";
+  content: '\ecce';
 }
 
 /*   Atmosphere - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
@@ -423,7 +423,7 @@
 .owf-701:before,
 .owf-701-d:before,
 .owf-701-n:before {
-  content: "\ed1d";
+  content: '\ed1d';
 }
 
 /* smoke */
@@ -431,7 +431,7 @@
 .owf-711:before,
 .owf-711-d:before,
 .owf-711-n:before {
-  content: "\ed27";
+  content: '\ed27';
 }
 
 /* haze */
@@ -439,7 +439,7 @@
 .owf-721:before,
 .owf-721-d:before,
 .owf-721-n:before {
-  content: "\ed31";
+  content: '\ed31';
 }
 
 /* Sand/Dust Whirls */
@@ -447,7 +447,7 @@
 .owf-731:before,
 .owf-731-d:before,
 .owf-731-n:before {
-  content: "\ed3b";
+  content: '\ed3b';
 }
 
 /* Fog */
@@ -455,7 +455,7 @@
 .owf-741:before,
 .owf-741-d:before,
 .owf-741-n:before {
-  content: "\ed45";
+  content: '\ed45';
 }
 
 /* sand */
@@ -463,7 +463,7 @@
 .owf-751:before,
 .owf-751-d:before,
 .owf-751-n:before {
-  content: "\ed4f";
+  content: '\ed4f';
 }
 
 /* dust */
@@ -471,7 +471,7 @@
 .owf-761:before,
 .owf-761-d:before,
 .owf-761-n:before {
-  content: "\ed59";
+  content: '\ed59';
 }
 
 /*  VOLCANIC ASH  */
@@ -479,7 +479,7 @@
 .owf-762:before,
 .owf-762-d:before,
 .owf-762-n:before {
-  content: "\ed5a";
+  content: '\ed5a';
 }
 
 /* SQUALLS */
@@ -487,7 +487,7 @@
 .owf-771:before,
 .owf-771-d:before,
 .owf-771-n:before {
-  content: "\ed63";
+  content: '\ed63';
 }
 
 /* TORNADO */
@@ -495,7 +495,7 @@
 .owf-781:before,
 .owf-781-d:before,
 .owf-781-n:before {
-  content: "\ed6d";
+  content: '\ed6d';
 }
 
 /*   Clouds - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
@@ -508,34 +508,34 @@
 .owf-800-d:before,
 .owf-951:before,
 .owf-951-d:before {
-  content: "\ed80";
+  content: '\ed80';
 }
 
 .owf-800-n:before,
 .owf-951-n:before {
-  content: "\f168";
+  content: '\f168';
 }
 
 /*  few clouds   */
 
 .owf-801:before,
 .owf-801-d:before {
-  content: "\ed81";
+  content: '\ed81';
 }
 
 .owf-801-n:before {
-  content: "\f169";
+  content: '\f169';
 }
 
 /* scattered clouds */
 
 .owf-802:before,
 .owf-802-d:before {
-  content: "\ed82";
+  content: '\ed82';
 }
 
 .owf-802-n:before {
-  content: "\f16a";
+  content: '\f16a';
 }
 
 /* broken clouds  */
@@ -543,7 +543,7 @@
 .owf-803:before,
 .owf-803-d:before,
 .owf-803-n:before {
-  content: "\ed83";
+  content: '\ed83';
 }
 
 /* overcast clouds  */
@@ -551,7 +551,7 @@
 .owf-804:before,
 .owf-804-d:before,
 .owf-804-n:before {
-  content: "\ed84";
+  content: '\ed84';
 }
 
 /*   Extreme - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
@@ -561,7 +561,7 @@
 .owf-900:before,
 .owf-900-d:before,
 .owf-900-n:before {
-  content: "\ede4";
+  content: '\ede4';
 }
 
 /*  tropical storm  */
@@ -569,7 +569,7 @@
 .owf-901:before,
 .owf-901-d:before,
 .owf-901-n:before {
-  content: "\ede5";
+  content: '\ede5';
 }
 
 /* hurricane */
@@ -577,7 +577,7 @@
 .owf-902:before,
 .owf-902-d:before,
 .owf-902-n:before {
-  content: "\ede6";
+  content: '\ede6';
 }
 
 /* cold */
@@ -585,7 +585,7 @@
 .owf-903:before,
 .owf-903-d:before,
 .owf-903-n:before {
-  content: "\ede7";
+  content: '\ede7';
 }
 
 /* hot */
@@ -593,7 +593,7 @@
 .owf-904:before,
 .owf-904-d:before,
 .owf-904-n:before {
-  content: "\ede8";
+  content: '\ede8';
 }
 
 /* windy */
@@ -601,7 +601,7 @@
 .owf-905:before,
 .owf-905-d:before,
 .owf-905-n:before {
-  content: "\ede9";
+  content: '\ede9';
 }
 
 /* hail */
@@ -609,7 +609,7 @@
 .owf-906:before,
 .owf-906-d:before,
 .owf-906-n:before {
-  content: "\edea";
+  content: '\edea';
 }
 
 /*   Additional - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
@@ -619,7 +619,7 @@
 .owf-950:before,
 .owf-950-d:before,
 .owf-950-n:before {
-  content: "\ee16";
+  content: '\ee16';
 }
 
 /*  Light breeze  */
@@ -627,7 +627,7 @@
 .owf-952:before,
 .owf-952-d:before,
 .owf-952-n:before {
-  content: "\ee18";
+  content: '\ee18';
 }
 
 /*  Gentle Breeze  */
@@ -635,7 +635,7 @@
 .owf-953:before,
 .owf-953-d:before,
 .owf-953-n:before {
-  content: "\ee19";
+  content: '\ee19';
 }
 
 /*  Moderate breeze  */
@@ -643,7 +643,7 @@
 .owf-954:before,
 .owf-954-d:before,
 .owf-954-n:before {
-  content: "\ee1a";
+  content: '\ee1a';
 }
 
 /* Fresh Breeze  */
@@ -651,7 +651,7 @@
 .owf-955:before,
 .owf-955-d:before,
 .owf-955-n:before {
-  content: "\ee1b";
+  content: '\ee1b';
 }
 
 /* Strong  Breeze  */
@@ -659,7 +659,7 @@
 .owf-956:before,
 .owf-956-d:before,
 .owf-956-n:before {
-  content: "\ee1c";
+  content: '\ee1c';
 }
 
 /* High wind, near gale  */
@@ -667,7 +667,7 @@
 .owf-957:before,
 .owf-957-d:before,
 .owf-957-n:before {
-  content: "\ee1d";
+  content: '\ee1d';
 }
 
 /* Gale */
@@ -675,7 +675,7 @@
 .owf-958:before,
 .owf-958-d:before,
 .owf-958-n:before {
-  content: "\ee1e";
+  content: '\ee1e';
 }
 
 /*  Severe Gale  */
@@ -683,7 +683,7 @@
 .owf-959:before,
 .owf-959-d:before,
 .owf-959-n:before {
-  content: "\ee1f";
+  content: '\ee1f';
 }
 
 /* Storm */
@@ -691,7 +691,7 @@
 .owf-960:before,
 .owf-960-d:before,
 .owf-960-n:before {
-  content: "\ee20";
+  content: '\ee20';
 }
 
 /*  Violent Storm  */
@@ -699,7 +699,7 @@
 .owf-961:before,
 .owf-961-d:before,
 .owf-961-n:before {
-  content: "\ee21";
+  content: '\ee21';
 }
 
 /* Hurricane */
@@ -707,10 +707,10 @@
 .owf-962:before,
 .owf-962-d:before,
 .owf-962-n:before {
-  content: "\ee22";
+  content: '\ee22';
 }
 
-[class*=__container] {
+[class*='__container'] {
   padding: 0 0.9375rem;
 }
 
@@ -724,7 +724,7 @@
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :focus,
@@ -746,14 +746,14 @@ body {
 body {
   color: #000;
   line-height: 1;
-  font-family: "Poppins", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 0.875rem;
 }
 
 input,
 button,
 textarea {
-  font-family: "Poppins", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: inherit;
 }
 
@@ -805,7 +805,7 @@ body {
 .lock body {
   overflow: hidden;
   -ms-touch-action: none;
-      touch-action: none;
+  touch-action: none;
 }
 
 .wrapper {
@@ -817,14 +817,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .wrapper > main {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 .header {
@@ -866,21 +866,21 @@ body {
 
 .menu-open .menu__icon span {
   -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
 }
 
 .menu-open .menu__icon span:first-child {
   -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
   top: 0px;
 }
 
 .menu-open .menu__icon span:last-child {
   -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   top: 0px;
 }
 
@@ -894,7 +894,7 @@ body {
 }
 
 .menu__item::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 7px;
   height: 7px;
@@ -921,7 +921,7 @@ body {
 }
 
 .menu__link span::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -951,7 +951,7 @@ body {
   background-color: #fff;
   border-radius: 10px;
   -webkit-box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
-          box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+  box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
 }
 
 .country--input {
@@ -971,7 +971,7 @@ body {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .result__country {
@@ -994,7 +994,7 @@ body {
   background-color: #fff;
   border-radius: 10px;
   -webkit-box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
-          box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+  box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
 }
 
 .weather--input {
@@ -1021,7 +1021,7 @@ body {
   background-color: #fff;
   border-radius: 10px;
   -webkit-box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
-          box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+  box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
 }
 
 .dict--input {
@@ -1072,14 +1072,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .content__title {
@@ -1095,8 +1095,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .content__result {
@@ -1106,8 +1106,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -1115,8 +1115,8 @@ body {
 .search__input {
   padding: 5px;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 70%;
-          flex: 0 0 70%;
+  -ms-flex: 0 0 70%;
+  flex: 0 0 70%;
   font-size: 16px;
 }
 
@@ -1143,8 +1143,8 @@ body {
 .search__btn {
   padding: 10px 0;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 25%;
-          flex: 0 0 25%;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
   color: #000;
   font-size: 16px;
   border-radius: 5px;
@@ -1186,11 +1186,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .menu__body.menu-open {
