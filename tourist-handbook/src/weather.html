@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  @@include('html/head.html', { "title":"Погода" })
+
+  <body>
+    <div class="wrapper">
+      @@include('html/header.html',{})
+      <main class="content weather--content">
+        <div class="content__container">
+          <h1 class="content__title">Погода</h1>
+          <div class="content__body weather--body">
+            <div class="content__search">
+              <input type="text" placeholder="Введите город здесь.." class="search__input weather--input" id="input" />
+              <button class="search__btn weather--btn" id="btn">Найти</button>
+            </div>
+            <div class="content__result"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="js/weather.min.js"></script>
+  </body>
+</html>

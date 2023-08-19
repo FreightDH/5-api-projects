@@ -1,0 +1,35 @@
+.weather--content {
+  background-color: #90e0ef;
+}
+.weather--body {
+  width: 70vmin;
+  padding: 50px;
+
+  @media (max-width: $mobile) {
+    padding: 25px;
+  }
+
+  @media (max-width: $mobileSmall) {
+    width: 90vmin;
+    padding: 25px 15px;
+  }
+
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+.weather--input {
+  border-bottom: 2px solid #90e0ef;
+}
+.weather--btn {
+  background-color: #90e0ef;
+}
+
+.result {
+  &__icon {
+    margin: 0px 0px 20px 0px;
+
+    font-size: 60px;
+    text-align: center;
+  }
+}

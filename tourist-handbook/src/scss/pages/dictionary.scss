@@ -1,0 +1,62 @@
+.dict--content {
+  background-color: #ade8f4;
+}
+.dict--body {
+  width: 90vmin;
+  padding: 50px;
+
+  @media (max-width: $mobile) {
+    padding: 25px;
+  }
+
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+.dict--input {
+  border-bottom: 3px solid #ade8f4;
+}
+.dict--btn {
+  background-color: #ade8f4;
+}
+
+.result {
+  &__word {
+    color: #1f194c;
+    font-size: 30px;
+
+    @media (max-width: $mobile) {
+      font-size: 20px;
+    }
+  }
+
+  &__details {
+    margin: 5px 0px 20px 0px;
+    display: flex;
+    gap: 10px;
+  }
+
+  &__definition {
+    color: #575a7b;
+  }
+
+  &__example {
+    margin: 30px 0px 0px 0px;
+    padding: 0px 0px 0px 20px;
+
+    color: #575a7b;
+    font-style: italic;
+
+    border-left: 5px solid #ade8f4;
+  }
+
+  &__error {
+    margin: 80px 0px 0px 0px;
+    text-align: center;
+  }
+}
+.details {
+  &__text {
+    color: #b3b6d4;
+  }
+}
